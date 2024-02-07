@@ -64,8 +64,8 @@ nav a:hover {
 
 section {
     background: url(../resume/assets/Background.jpg);
-    background-size: 1600px 600px;
-    background-position: center top;
+    background-size: cover;
+    background-position: 0px -70px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
