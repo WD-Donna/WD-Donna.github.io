@@ -1,0 +1,110 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    color: #6c4e6e;
+
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #c47ecf;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: justify;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-align: right;
+    padding: 0 2rem 0 0rem;
+}
+
+nav {
+    background-color: #ff00d4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    justify-items: end;
+    width: 100%;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #7009a3;
+}
+
+section {
+    background: url(../resume/assets/Background.jpg);
+    background-size: 1600px 600px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    padding-top: 40px;
+}
+
+section div {
+    max-width: 300px;
+    padding: 20px;
+}
+
+section div img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+section div:first-child {
+    text-align: center;
+}
+
+section img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #ff00d4;
+    color: #2e1034; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #f7c1f9;
+}
