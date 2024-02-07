@@ -10,7 +10,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    color: #ffffff;
+    color: #030303;
 }
 
  #div-page-name {
@@ -51,7 +51,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    color: #FFFFFF;
+    color: #000000;
     font-size: 24px;
 }
 
