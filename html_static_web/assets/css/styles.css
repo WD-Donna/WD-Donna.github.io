@@ -1,0 +1,252 @@
+body, html {
+    margin: 0px;
+    height: 100vh;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    padding: 0px 160px;
+    background: #d4d4b8;
+    background-size: cover;
+    position: sticky;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 225px;
+    color: #000000;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 20px;
+    color: #800000;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #161602;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #5c5c01;
+}
+
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #936b0f;
+    bottom: -4px;
+    left: 20px;
+}
+
+#home-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Bg.1.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+}
+
+#home-section span {
+    color: #cf1818;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#home-section span {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+#home-section button {
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: 500px;
+    padding: 10px 60px 12px 50px;
+    border-radius: 25px;
+    border: 2px solid #cbb1b1;
+    cursor: pointer;
+}
+
+#products-section .pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 0%;
+    margin: 35px;
+}
+
+#products-section {
+    text-align: center;
+}
+
+#products-section .product {
+    width: 25%;
+    min-width: 200px;
+    padding: 10px 5px 60px;
+    border: 10px solid #e7e5cc;
+    border-radius: 25px;
+    transition: .2s;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 20px 5px;
+}
+
+#products-section .product:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#products-section .product img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#about-section h2 {
+    text-align: center;
+    color: #070707;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#about-section {
+    display: flex;
+    align-items: center;
+    background-color: #e7e5ccc1;
+    height: 100vh;
+}
+
+.section-p1 {
+    padding: 20px 250px;
+}
+
+#about-section img {
+    width: 60%;
+    height: auto;
+}
+
+#about-section div {
+    padding-left: 40px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: #2f2e18;
+    margin: 20px 0 25px 0;
+    text-align: left;
+}
+
+#contact-section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#contact-section .details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contact-section .details h3{
+    font-size: 45px;
+    line-height: 35px;
+    padding: 20px 50px;
+}
+
+#contact-section .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-section .map {
+    width: 55%;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .logo {
+    margin-bottom: 3px;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.copyright p{
+    width: 100%;
+    text-align: center;
+    background-color: #161602;
+    color: #ffffff;
+}
