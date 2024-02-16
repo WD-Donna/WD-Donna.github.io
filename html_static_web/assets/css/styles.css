@@ -158,7 +158,7 @@ h3 {
 }
 
 .section-p1 {
-    padding: 20px 250px;
+    padding: -1px 200px;
 }
 
 #about-section img {
@@ -176,7 +176,7 @@ p {
     font-size: 28px;
     color: #2f2e18;
     margin: 20px 0 25px 0;
-    text-align: left;
+    text-align: center;
 }
 
 #contact-section {
@@ -221,12 +221,12 @@ footer .logo {
 }
 
 footer h4 {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    padding-bottom: -5px;
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 0 8px 0;
 }
 
@@ -238,13 +238,13 @@ footer .col {
 }
 
 footer a {
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     margin-bottom: 10px;
     color: #222;
 }
 
-.copyright p{
+.copyright h4{
     width: 100%;
     text-align: center;
     background-color: #161602;
