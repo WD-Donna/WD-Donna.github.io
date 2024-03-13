@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .table-cell {
+      height: 3rem;
+      width: 3rem;
+    }
+}

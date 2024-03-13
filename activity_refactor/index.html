@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/index.css">
+
+<title>Math Operations</title>
+</head>
+<body>
+<h2>Math Operations</h2>
+<label for="txtCount" class="form-label">Enter First number</label>
+<br><br>
+<input type="number" id="num1" placeholder="Enter first number">
+<br><br>
+<label for="txtCount" class="form-label">Enter Second number</label>
+<br><br>
+<input type="number" id="num2" placeholder="Enter second number">
+<br><br>
+<button onclick="performOperation('addition')">Add</button>
+<button onclick="performOperation('subtraction')">Subtract</button>
+<button onclick="performOperation('multiplication')">Multiply</button>
+<button onclick="performOperation('division')">Divide</button>
+<br><br>
+<p>TOTAL: <span id="result" placeholder="Result"></span></p>
+
+<script src="assets/index.js"></script>
+</body>
+</html>
