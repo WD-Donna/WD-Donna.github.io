@@ -29,5 +29,5 @@ function DrawList() {
     List += "<div class='row mt-1'><div class='col'>"+ Employees[x][0] + "</div><div class='col'>"+ Employees[x][1] + "</div><div class='col'>"+ Employees[x][2] + " hours</div><div class='col'><button class='btn btn-danger' onclick='remove("+x+")'>Remove</button></div></div>";
 
     document.getElementById("ul-list").innerHTML = List;
-    document.getElementById("total-working-hours").innerText = "Total Working Hours: " + totalWorkingHours;
+    document.getElementById("total-working-hours").innerText = "" + totalWorkingHours;
 }
